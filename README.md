@@ -19,7 +19,7 @@ This repo is developed under Python 3.10
    ```
 2. Build venv: under the repo root
    ```sh
-   python3 -m venv ./
+   python3.10 -m venv ./
    ```
 3. Install requirements
    ```sh
@@ -36,6 +36,10 @@ This repo is developed under Python 3.10
    ```
 2. To finetune a model, run
    ```sh
-   python scripts/finetune_lm_ner.py` to finetune a model
+   python scripts/ner/finetune_lm_ner.py`
+   ```
+3. To run inference with a pretrained model, run
+   ```sh
+   python scripts/ner/predict_with_un_ner.py`
    ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
