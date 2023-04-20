@@ -36,6 +36,6 @@ This repo is developed under Python 3.10
    ```
 2. To finetune a model, run
    ```sh
-   python ner/scripts/finetune_lm_ner.py` to finetune a model
+   python scripts/finetune_lm_ner.py` to finetune a model
    ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
